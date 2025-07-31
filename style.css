@@ -46,6 +46,15 @@ body {
       background-size: 400% 400%;
       animation: gradient 15s ease infinite;
   }
+  #update{
+    color: rgb(0, 0, 0);
+    background-color: skyblue;
+    border-radius: 10px;
+  }
+  #update:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 255, 136);
+  }
   
   @keyframes gradient {
       0% {
